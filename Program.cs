@@ -5,6 +5,7 @@
         enum DayOfWeekEnum { Понедельник, Вторник, Среда, Четверг, Пятница, Суббота, Воскресенье };
 
         delegate string GetNextDayOfWeekDelegate();
+        
         static void Main(string[] args)
         {
             int currentDayIndex = -1;
